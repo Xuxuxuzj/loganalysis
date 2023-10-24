@@ -43,6 +43,7 @@ def convert_value(datatype, value):
     else:
         return value
 
+'''
 excel_file_path = 'L:\\basic\\Personal Archive\\Z\\zhangj\\parameters for extraction.xlsx'
 df = pd.read_excel(excel_file_path)
 parameters = {row['parameter']: (row['identification tekst'], row['1st break'], row['2nd break'], row['type of data']) for index, row in df.iterrows()}
@@ -50,7 +51,7 @@ parameters = {row['parameter']: (row['identification tekst'], row['1st break'], 
 file_path = r'L:\\basic\\Personal Archive\\Z\\zhangj\\logfiles-Z01-2017-2021\\log2017\\log2017-06\\log201706090000.log'
 log_lines = read_log_file(file_path)
 parameter_data = extract_parameter_values(log_lines, parameters)
-
+'''
 
 '''
 #printing data
